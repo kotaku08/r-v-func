@@ -21,4 +21,5 @@ vls_access_time_make <- function(yyyymm){
   tibble::data_frame(yyyymm = as.character(yyyymm),
                      access_time1 = as.character(yyyy_mm_dd_1),
                      access_time2 = as.character(yyyy_mm_dd_2))
+  #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 }
